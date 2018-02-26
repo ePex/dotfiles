@@ -55,6 +55,7 @@ brew 'go'
 brew 'python'
 brew 'python3'
 
+brew 'ant'
 brew 'maven'
 brew 'gradle'
 
