@@ -1,8 +1,6 @@
 # Local/private config goes in the include
-[include]
-        path = ~/.gitconfig.local
-#[user]
-#        useConfigOnly = true
+[user]
+        useConfigOnly = true
 [hub]
         protocol = https
 [alias]
