@@ -1,7 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-
+tap 'caskroom/fonts'
 
 brew 'ack'
 brew 'coreutils'
@@ -98,3 +98,4 @@ cask 'postman'
 cask 'xmind'
 cask 'seashore'
 cask 'tunnelbear'
+cask 'font-hack-nerd-font'
