@@ -1,7 +1,16 @@
 cask_args appdir: '/Applications'
 
-tap 'homebrew/bundle'
-tap 'caskroom/fonts'
+tap "homebrew/dupes"
+tap "homebrew/apache"
+tap "homebrew/core"
+tap "homebrew/php"
+tap "homebrew/versions"
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "pivotal/tap"
+tap "caskroom/fonts"
+tap "caskroom/cask"
+
 
 brew 'ack'
 brew 'coreutils'
