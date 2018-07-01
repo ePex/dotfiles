@@ -78,6 +78,12 @@ If you're brand-new to the project and run into any blockers, please
 [open an issue](https://github.com/holman/dotfiles/issues) on this repository
 and I'd love to get it fixed for you!
 
+## Todo
+ansible
+neofetch
+plantuml
+wtfutil https://github.com/senorprogrammer/wtf
+
 ## thanks
 
 I forked [Ryan Bates](http://github.com/ryanb)' excellent

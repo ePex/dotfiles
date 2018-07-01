@@ -58,6 +58,8 @@ brew 'sqlite'
 
 brew 'go'
 
+brew 'groovysdk'
+
 brew 'python'
 brew 'python3'
 
