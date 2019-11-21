@@ -1,3 +1,4 @@
+# https://github.com/bhilburn/powerlevel9k
 POWERLEVEL9K_INSTALLATION_PATH=$ANTIGEN_BUNDLES/bhilburn/powerlevel9k
 POWERLEVEL9K_MODE='nerdfont-complete'
 
@@ -20,14 +21,16 @@ antigen bundles <<EOBUNDLES
 	pip
 	python
 	brew
-	osx
 	zsh-syntax-highlighting
 	command-not-found
 	cp
 	extract
-	npm
 	web-search
+	dotenv
+	MichaelAquilina/zsh-you-should-use
 EOBUNDLES
+
+# npm and osx packages are broken
 
 # Load the theme.
 #antigen theme robbyrussell
