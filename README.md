@@ -79,10 +79,18 @@ If you're brand-new to the project and run into any blockers, please
 and I'd love to get it fixed for you!
 
 ## Todo
-ansible
-neofetch
-plantuml
-wtfutil https://github.com/senorprogrammer/wtf
+* ansible
+* neofetch
+* plantuml
+* wtfutil https://github.com/senorprogrammer/wtf
+* make zsh run as a login shell
+* ssh config 
+```sh
+Host *
+   AddKeysToAgent yes
+   UseKeychain yes
+```
+* mkdir -p ~/.nvm
 
 ## thanks
 
