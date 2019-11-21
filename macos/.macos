@@ -1,3 +1,9 @@
+# check out: https://github.com/kangax/osx
+# https://github.com/donnemartin/dev-setup/blob/master/osx.sh
+# https://github.com/mathiasbynens/dotfiles/blob/master/.macos
+# https://github.com/mathiasbynens/dotfiles
+
+
 #!/usr/bin/env bash
 
 # ~/.macos — https://mths.be/macos

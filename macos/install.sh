@@ -5,3 +5,8 @@
 
 echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -i -a
+
+networksetup -setv6off Wi-Fi
+
+# own folder with install.sh
+mkcert -install
