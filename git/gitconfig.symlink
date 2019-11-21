@@ -38,6 +38,7 @@
 [core]
         excludesfile = ~/.gitignore
         editor = vim
+	commitGraph = true
 [apply]
         whitespace = nowarn
 [mergetool]
@@ -59,3 +60,7 @@
         prune = true
 [diff]
         compactionHeuristic = true
+[gc]
+	writeCommitGraph = true
+[sequence]
+	editor = interactive-rebase-tool
