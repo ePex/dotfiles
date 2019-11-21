@@ -12,4 +12,4 @@ fi
 export LANG=en_US.UTF-8
 
 # ssh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
