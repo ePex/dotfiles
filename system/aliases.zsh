@@ -1,14 +1,8 @@
-# grc overides for ls
-#   Made possible through contributions from generous benefactors like
-#   `brew install coreutils`
-if $(gls &>/dev/null)
-then
-  alias ls="gls -F --color"
-  alias lsd='gls -F --color | grep "^d"'
-  alias l="gls -lAh --color"
-  alias ll="gls -l --color"
-  alias la='gls -A --color'
-fi
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."

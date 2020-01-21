@@ -47,6 +47,7 @@ brew 'youtube-dl'
 brew 'openssl'
 brew 'ffmpeg'
 brew 'bat'
+brew 'lsd'
 
 brew 'gti'
 brew 'git'
