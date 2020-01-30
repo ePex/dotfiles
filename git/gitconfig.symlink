@@ -60,6 +60,7 @@
         prune = true
 [diff]
         compactionHeuristic = true
+	noprefix = true
 [gc]
 	writeCommitGraph = true
 [sequence]
