@@ -17,6 +17,7 @@ tap "derailed/k9s"
 tap "isacikgoz/taps"
 
 brew 'ack'
+brew 'ripgrep'
 brew 'coreutils'
 brew 'grc'
 brew 'zsh'
