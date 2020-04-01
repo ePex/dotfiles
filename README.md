@@ -84,12 +84,6 @@ and I'd love to get it fixed for you!
 * plantuml
 * wtfutil https://github.com/senorprogrammer/wtf
 * make zsh run as a login shell
-* ssh config 
-```sh
-Host *
-   AddKeysToAgent yes
-   UseKeychain yes
-```
 * mkdir -p ~/.nvm
 
 ## thanks
