@@ -7,4 +7,4 @@
 #
 # Run ./set-defaults.sh and you'll be good to go.
 
-./.macos
+#./.macos
