@@ -1,3 +1,7 @@
+Brewfile.lock.json
+
+antigen/antigen.zsh.zwc
+
 atom.symlink/.apm
 atom.symlink/.node-gyp
 atom.symlink/.storage
@@ -13,3 +17,4 @@ git/gitconfig.local.symlink
 
 ssh.symlink/id_rsa
 ssh.symlink/id_dsa
+ssh.symlink/known_hosts
