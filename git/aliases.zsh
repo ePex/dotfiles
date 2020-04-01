@@ -42,6 +42,6 @@ alias gmod="git merge origin/develop"
 alias gfo="git fetch origin"
 
 alias ggmail='git config user.name "Philipp Holz";git config user.email phil.epex@googlemail.com'
-alias gwork='git config user.name "Philipp Holz";git config user.email philipp.holz@unic.com'
+alias gwork='git config user.name "Philipp Holz";git config user.email philipp.holz@codesupply.de'
 
 alias git_del_merged='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
