@@ -3,18 +3,18 @@ cask_args appdir: '/Applications'
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 tap "pivotal/tap"
 tap "jesseduffield/lazygit"
-tap "caskroom/fonts"
-tap "caskroom/cask"
-tap "caskroom/versions"
 tap "timothyye/tap"
-tap "go-task/tap/"
 tap "skanehira/docui"
 tap "cjbassi/gotop"
 tap "wagoodman/dive"
 tap "derailed/k9s"
 tap "isacikgoz/taps"
+tap "AdoptOpenJDK/openjdk"
 
 brew 'ack'
 brew 'ripgrep'
@@ -92,7 +92,6 @@ brew 'ruby'
 
 brew 'ctop'
 brew 'autojump'
-brew 'warp'
 brew 'timothyye/tap/skm'
 brew 'wrk'
 brew 'gitleaks'
@@ -100,22 +99,23 @@ brew 'go-task/tap/go-task'
 brew 'hh'
 brew 'mkcert'
 brew 'nss'
-brew 'skanehira/docui'
+brew 'skanehira/docui/docui'
 brew 'gotop'
 brew 'fx'
 brew 'dive'
 brew 'kubernetes-helm'
 brew 'k9s'
 brew 'kubectx'
+brew 'minikube'
 brew 'kustomize'
 brew 'terraform'
 brew 'terraformer'
 
 # CASK APPLICATIONS
 
-cask 'java'
-cask 'java8'
-cask 'java9'
+cask 'adoptopenjdk'
+cask 'adoptopenjdk/openjdk/adoptopenjdk8'
+cask 'adoptopenjdk9'
 cask '1password'
 cask 'atom'
 cask 'firefox'
@@ -146,7 +146,6 @@ cask 'alfred'
 cask 'bettertouchtool'
 cask 'discord'
 cask 'google-cloud-sdk'
-cask 'minikube'
 #cask 'EnergyBar'
 cask 'fork'
 cask 'gitup'
