@@ -39,6 +39,7 @@
         excludesfile = ~/.gitignore
         editor = vim
 	commitGraph = true
+	autocrlf = false
 [apply]
         whitespace = nowarn
 [mergetool]
