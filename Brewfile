@@ -111,6 +111,7 @@ brew 'minikube'
 brew 'kustomize'
 brew 'terraform'
 brew 'terraformer'
+brew 'tflint'
 
 # CASK APPLICATIONS
 
