@@ -49,6 +49,7 @@ brew 'openssl'
 brew 'ffmpeg'
 brew 'bat'
 brew 'lsd'
+brew 'findutils'
 
 brew 'gti'
 brew 'git'
