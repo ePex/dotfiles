@@ -50,6 +50,7 @@ brew 'ffmpeg'
 brew 'bat'
 brew 'lsd'
 brew 'findutils'
+brew 'tmux'
 
 brew 'gti'
 brew 'git'
