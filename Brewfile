@@ -61,6 +61,7 @@ brew 'lazygit'
 brew 'hub'
 brew 'interactive-rebase-tool'
 brew 'gitin'
+brew 'gh'
 
 brew 'gource'
 
