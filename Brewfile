@@ -15,6 +15,7 @@ tap "wagoodman/dive"
 tap "derailed/k9s"
 tap "isacikgoz/taps"
 tap "AdoptOpenJDK/openjdk"
+tap "nakabonne/ali"
 
 brew 'ack'
 brew 'ripgrep'
@@ -51,6 +52,7 @@ brew 'bat'
 brew 'lsd'
 brew 'findutils'
 brew 'tmux'
+brew 'qpdf'
 
 brew 'gti'
 brew 'git'
@@ -114,6 +116,7 @@ brew 'kustomize'
 brew 'terraform'
 brew 'terraformer'
 brew 'tflint'
+brew 'ali'
 
 # CASK APPLICATIONS
 
@@ -152,3 +155,5 @@ cask 'google-cloud-sdk'
 cask 'fork'
 cask 'gitup'
 cask 'gitahead'
+cask 'g-desktop-suite'
+cask 'mockoon'
