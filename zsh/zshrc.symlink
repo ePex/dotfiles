@@ -51,3 +51,7 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/philipp/.sdkman"
+[[ -s "/Users/philipp/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/philipp/.sdkman/bin/sdkman-init.sh"
