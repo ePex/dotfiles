@@ -45,3 +45,7 @@ alias ggmail='git config user.name "Philipp Holz";git config user.email phil.epe
 alias gwork='git config user.name "Philipp Holz";git config user.email philipp.holz@codesupply.de'
 
 alias git_del_merged='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
+alias gitcleanlocal_alreadymerged='git checkout master && git fetch && git remote prune origin && git branch --merged master | egrep -v '\''[^-]master$'\'' | xargs git branch -d'
+alias gitcleanlocal_alreadymerged_develop='git checkout develop && git fetch && git remote prune origin && git branch --merged develop | egrep -v '\''[^-]develop$'\'' | xargs git branch -d'
+alias gitcleanlocal_gone='git branch -vv | grep "gone" | cut -f3 -d\  | xargs git branch -D'
+alias bclean = "!f() { branches=$(git branch --merged ${1-master} | grep -v " ${1-master}$"); [ -z \"$branches\" ] || git branch -d $branches; }; f"
